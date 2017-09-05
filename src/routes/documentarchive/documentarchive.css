@@ -1,0 +1,91 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.root {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.headerTitle {
+  background:  rgb(25, 28, 31);
+  color: rgb(252, 240, 99);
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+  padding: 48px 48px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.search {
+  width:310px;
+  position:relative; top:2px; /* readujst in jsfiddle */
+  padding:8px 5px 8px 30px;
+  border:1px solid #ccc;
+}
+
+
+.go {
+    position:relative; top:11px;
+    padding:4px 5px 4px;
+    margin-left:80px;
+    border:none;
+    margin-left: 0;
+    padding: 4px 5px 4px;
+    background-image: none;
+
+}
+
+.go span {
+    display:block;
+    width:64px; height:28px;
+    background:url(http://i.imgur.com/mxxzQ.png) 0 0 no-repeat;
+    background-image: none;
+}
+
+.documentTypesList {
+  list-style: none;
+  width: 51%;
+  margin: 25px auto;
+}
+
+
+.documenType {
+  float: left;
+  padding: 0 24px;
+  cursor: pointer;
+  color: rgb(53, 53, 54);
+}
+
+.documenType:hover,
+.documenType:focus,
+.documenType:active,
+.documenType.active {
+  color: rgb(252, 240, 99);
+}
+
+.documenType label {
+  color: #ffffff !important;
+}
+
+.listofitems {
+  width: 51%;
+  margin: 25px auto;
+  border: 1px solid rgb(53, 53, 54);
+}
+
+.listContent {
+  
+}
