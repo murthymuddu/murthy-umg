@@ -29,7 +29,12 @@ class Navigation extends React.Component {
         <Link className={cx(s.link, s.highlight)} to="/about">
           Swift Consumption
         </Link>
+        <div className={s.navbarright}>
+        <Link to="/accountinformation" className={s.dropdowntoggle} data-toggle="dropdown">
+        <img src="http://placehold.it/24x24" className={cx(s.profileimage, s.imgcircle)}/> Account </Link>
       </div>
+      </div>
+
     );
   }
 }

@@ -40,8 +40,8 @@ const routes = {
       load: () => import(/* webpackChunkName: 'privacy' */ './privacy'),
     },
     {
-      path: '/admin',
-      load: () => import(/* webpackChunkName: 'admin' */ './admin'),
+      path: '/accountinformation',
+      load: () => import(/* webpackChunkName: 'accountinformation' */ './accountinformation'),
     },
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
