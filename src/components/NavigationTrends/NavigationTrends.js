@@ -10,33 +10,35 @@
 import React from 'react';
 import cx from 'classnames';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Navigation.css';
+import s from './NavigationTrends.css';
 import Link from '../Link';
 
-class Navigation extends React.Component {
+class NavigationTrends extends React.Component {
   render() {
     return (
       <div className={s.root} role="navigation">
-        <Link className={s.link}  to="/">
-          Main
-        </Link>
-        <Link className={s.link} to="/documentarchive">
-          Document Archive
+        <Link className={s.link}  to="/swifttrends">
+          Home
         </Link>
         <Link className={s.link} to="/swifttrends">
-          Swift Trends
+          Marketing / Creative
         </Link>
-        <Link className={cx(s.link, s.highlight)} to="/about">
-          Swift Consumption
+        <Link className={s.link} to="/swifttrends">
+          Global Marketing
         </Link>
-        <div className={s.navbarright}>
-        <Link to="/accountinformation" className={s.dropdowntoggle} data-toggle="dropdown">
-        <img src="http://placehold.it/24x24" className={cx(s.profileimage, s.imgcircle)}/> Account </Link>
-      </div>
+        <Link className={cx(s.link, s.highlight)} to="/swifttrends">
+          Branding
+        </Link>
+        <Link className={s.link} to="/swifttrends">
+          Catalogue
+        </Link>
+        <Link className={s.link} to="/swifttrends">
+          Playlists
+        </Link>
       </div>
 
     );
   }
 }
 
-export default withStyles(s)(Navigation);
+export default withStyles(s)(NavigationTrends);

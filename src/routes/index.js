@@ -32,6 +32,10 @@ const routes = {
       load: () => import(/* webpackChunkName: 'documentarchive' */ './documentarchive'),
     },
     {
+      path: '/swifttrends',
+      load: () => import(/* webpackChunkName: 'swifttrendshome' */ './swifttrendshome'),
+    },
+    {
       path: '/about',
       load: () => import(/* webpackChunkName: 'about' */ './about'),
     },

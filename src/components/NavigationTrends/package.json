@@ -1,0 +1,6 @@
+{
+  "name": "NavigationTrends",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./NavigationTrends.js"
+}

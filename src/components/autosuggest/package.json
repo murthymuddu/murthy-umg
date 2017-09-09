@@ -1,0 +1,6 @@
+{
+  "name": "AutoSuggestComponent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AutoSuggestComponent.js"
+}

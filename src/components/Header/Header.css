@@ -30,6 +30,12 @@
   font-size: 1.25em; /* ~20px */
 }
 
+.brand:hover a {
+  color: color(var(--brand-color) lightness(+10%)) !important;
+  text-decoration: none !important;
+  font-size: 1.25em !important; /* ~20px */
+}
+
 .brandTxt {
   margin-left: 10px;
 }
