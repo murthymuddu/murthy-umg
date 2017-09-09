@@ -20,7 +20,6 @@
  * ========================================================================== */
 
 html {
- 
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
@@ -30,7 +29,7 @@ html {
 body {
   background: rgb(34, 37, 43);
   margin: 0;
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 a {
@@ -48,62 +47,62 @@ a {
  */
 
  
- :root {
-   --brand-color: rgb(73, 254, 196);
- }
+:root {
+  --brand-color: rgb(73, 254, 196);
+}
  
- .root {
-   background: rgb(25, 28, 31);
-   color: #fff;
- }
+.root {
+  background: rgb(25, 28, 31);
+  color: #fff;
+}
  
- .container {
-   margin: 0 auto;
-   padding: 20px 0 0;
- }
+.container {
+  margin: 0 auto;
+  padding: 20px 0 0;
+}
  
- .brand {
-   color: color(var(--brand-color) lightness(+10%));
-   text-decoration: none;
-   font-size: 1.25em; /* ~20px */
- }
+.brand {
+  color: color(var(--brand-color) lightness(+10%));
+  text-decoration: none;
+  font-size: 1.25em; /* ~20px */
+}
 
- .brand:hover {
+.brand:hover {
   color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
   font-size: 1.25em; /* ~20px */
 }
  
- .brandTxt {
-   margin-left: 10px;
- }
+.brandTxt {
+  margin-left: 10px;
+}
  
- .banner {
-   text-align: center;
- }
+.banner {
+  text-align: center;
+}
  
- .bannerTitle {
-   margin: 0;
-   padding: 10px;
-   font-weight: normal;
-   font-size: 4em;
-   line-height: 1em;
- }
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
  
- .bannerDesc {
-   padding: 0;
-   color: rgba(255, 255, 255, 0.5);
-   font-size: 1.25em;
-   margin: 0;
- }
+.bannerDesc {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25em;
+  margin: 0;
+}
  
- .bold {
-   font-weight: bold;
- }
+.bold {
+  font-weight: bold;
+}
  
- .brandTextContainer {
-   display: inline-block;
- }
+.brandTextContainer {
+  display: inline-block;
+}
  
 ::-moz-selection {
   background: #b3d4fc;
@@ -158,15 +157,15 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
- input, textarea {
-   background: #000;
-   border: 0 ;
-   color: #fff;
-   font-size: 14px;
- }
+input, textarea {
+  background: #000;
+  border: 0 ;
+  color: #fff;
+  font-size: 14px;
+}
 
 
- input {
+input {
   width: 400px;
   height: 30px;
   padding: 10px 20px;
@@ -176,6 +175,9 @@ fieldset {
   border: 1px solid #aaa;
   border-radius: 4px;
   margin-left: 19%;
+}
+.inputElementText {
+  margin-left: 0%;
 }
 
 textarea {
@@ -268,6 +270,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 .react-autosuggest__container {
   position: relative;
 }

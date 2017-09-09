@@ -17,7 +17,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className={s.root} role="navigation">
-        <Link className={s.link}  to="/">
+        <Link className={s.link} to="/">
           Main
         </Link>
         <Link className={s.link} to="/documentarchive">
@@ -30,11 +30,19 @@ class Navigation extends React.Component {
           Swift Consumption
         </Link>
         <div className={s.navbarright}>
-        <Link to="/accountinformation" className={s.dropdowntoggle} data-toggle="dropdown">
-        <img src="http://placehold.it/24x24" className={cx(s.profileimage, s.imgcircle)}/> Account </Link>
+          <Link
+            to="/accountinformation"
+            className={s.dropdowntoggle}
+            data-toggle="dropdown"
+          >
+            <img
+              src="http://placehold.it/24x24"
+              className={cx(s.profileimage, s.imgcircle)}
+            />{' '}
+            Account{' '}
+          </Link>
+        </div>
       </div>
-      </div>
-
     );
   }
 }

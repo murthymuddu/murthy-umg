@@ -29,11 +29,13 @@ const routes = {
     },
     {
       path: '/documentarchive',
-      load: () => import(/* webpackChunkName: 'documentarchive' */ './documentarchive'),
+      load: () =>
+        import(/* webpackChunkName: 'documentarchive' */ './documentarchive'),
     },
     {
       path: '/swifttrends',
-      load: () => import(/* webpackChunkName: 'swifttrendshome' */ './swifttrendshome'),
+      load: () =>
+        import(/* webpackChunkName: 'swifttrendshome' */ './swifttrendshome'),
     },
     {
       path: '/about',
@@ -45,7 +47,8 @@ const routes = {
     },
     {
       path: '/accountinformation',
-      load: () => import(/* webpackChunkName: 'accountinformation' */ './accountinformation'),
+      load: () =>
+        import(/* webpackChunkName: 'accountinformation' */ './accountinformation'),
     },
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)

@@ -26,6 +26,7 @@
 h2 {
   font-weight: lighter;
 }
+
 .container {
   margin: 0 auto;
   padding: 0 0 40px;
@@ -200,6 +201,7 @@ h2 {
 .selectedArtistsBlock {
   height: 80px;
 }
+
 .emailNotificationsGroup {
   padding: 15px;
   line-height: 200%;
@@ -273,10 +275,10 @@ input[type="checkbox"]:checked + label span {
   border: 1px solid #ccc;
   font-size: 14px;
   height: 30px;
-   width: 178px;
-   background-color: #000000;
-   color: #ffffff;
-   border: 0;
+  width: 178px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
 
 }
 

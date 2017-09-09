@@ -17,7 +17,7 @@ class NavigationTrends extends React.Component {
   render() {
     return (
       <div className={s.root} role="navigation">
-        <Link className={s.link}  to="/swifttrends">
+        <Link className={s.link} to="/swifttrends">
           Home
         </Link>
         <Link className={s.link} to="/swifttrends">
@@ -36,7 +36,6 @@ class NavigationTrends extends React.Component {
           Playlists
         </Link>
       </div>
-
     );
   }
 }

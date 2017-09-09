@@ -17,8 +17,6 @@ import s from './LayoutTrends.css';
 import Link from '../Link';
 import NavigationTrends from '../NavigationTrends';
 
-
-
 class LayoutTrends extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
@@ -31,7 +29,9 @@ class LayoutTrends extends React.Component {
           <div className={s.container}>
             <div className={s.brandTextContainer}>
               <Link className={s.brand} to="/">
-                <span className={s.brandTxt}><span className={s.bold}>UMG |</span> Swift Trends</span>
+                <span className={s.brandTxt}>
+                  <span className={s.bold}>UMG |</span> Swift Trends
+                </span>
               </Link>
             </div>
             <NavigationTrends />

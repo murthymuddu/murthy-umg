@@ -27,9 +27,7 @@ class Login extends React.Component {
         <div className={s.container}>
           <form method="post">
             <div className={s.formHeaderGroup}>
-              <h2 className={s.formHeader}>
-                Profile Information
-                </h2>
+              <h2 className={s.formHeader}>Profile Information</h2>
             </div>
             <div className={s.formFieldsContainer}>
               <div className={s.formFieldsGroup}>
@@ -72,9 +70,7 @@ class Login extends React.Component {
               </div>
             </div>
             <div className={s.formHeaderGroup}>
-              <h2 className={s.formHeader}>
-                Short Questionnarie
-                </h2>
+              <h2 className={s.formHeader}>Short Questionnarie</h2>
             </div>
             <div className={cx(s.formFieldsContainer, s.shortQuestionnarie)}>
               <div className={s.formFieldsGroup}>
@@ -82,7 +78,7 @@ class Login extends React.Component {
                   <div className={s.formGroup}>
                     <label>Which artist to you look after?</label>
                     <span>
-                      <input type="text" placeholder="Search:artists..." />
+                      <input className={s.inputElementText} type="text" placeholder="Search:artists..." />
                     </span>
                   </div>
                 </div>
@@ -100,17 +96,18 @@ class Login extends React.Component {
                   <div className={s.formGroup}>
                     <label>Which countries of intrest to you?</label>
                     <span>
-                      <textarea defaultValue=" List them here...">
-                       
-                      </textarea>
+                      <textarea defaultValue=" List them here..." />
                     </span>
                   </div>
                 </div>
                 <div className={s.formGroupRow}>
                   <div className={s.formGroup}>
-                    <label>Are you intrested in an artist's international per-formance, or only local?</label>
+                    <label>
+                      Are you intrested in an artist's international
+                      per-formance, or only local?
+                    </label>
                     <span className={s.selectBoxContainer}>
-                      <select >
+                      <select>
                         <option>Choose one...</option>
                       </select>
                     </span>
@@ -129,36 +126,57 @@ class Login extends React.Component {
               </div>
             </div>
             <div className={s.formHeaderGroup}>
-              <h2 className={s.formHeader}>
-                Artist you look after ...
-                </h2>
+              <h2 className={s.formHeader}>Artist you look after ...</h2>
             </div>
             <div className={s.formFieldsContainer}>
               <div className={s.formFieldsGroup}>
-                <div className={s.selectedArtistsBlock}>
-                </div>
+                <div className={s.selectedArtistsBlock} />
               </div>
             </div>
             <div className={s.formFieldsButtonsWrapper}>
-              <button type="button"  className={cx(s.btn, s.btnYellow)}>next</button>
+              <button type="button" className={cx(s.btn, s.btnYellow)}>
+                next
+              </button>
             </div>
-        
+
             <div className={s.formHeaderGroup}>
-              <h2 className={s.formHeader}>
-                Notifications & Alerts
-                </h2>
+              <h2 className={s.formHeader}>Notifications & Alerts</h2>
             </div>
             <div className={cx(s.formFieldsContainer, s.emailNotifications)}>
               <div className={cx(s.formFieldsGroup, s.emailNotificationsGroup)}>
                 <h4>Email Notifications</h4>
-                <div className={s.squaredThree }><input type="checkbox" name="newsalert" id="newsalertID"/><label htmlFor="newsalertID"><span></span>UMG Global Data & Analytics Newsletter</label></div>
-                <div className={s.squaredThree }><input type="checkbox" name="emailalert" id="emailalertID"/><label htmlFor="emailalertID"><span></span>Email Alerts(i.e. When followed items surpass benchmarks) Analytics Newsletter</label></div>
-                <div className={s.squaredThree }><input type="checkbox" name="globalpriority" id="globalpriorityID"/><label htmlFor="globalpriorityID"><span></span>Global Priorities Monthly</label></div>
+                <div className={s.squaredThree}>
+                  <input type="checkbox" name="newsalert" id="newsalertID" />
+                  <label htmlFor="newsalertID">
+                    <span />UMG Global Data & Analytics Newsletter
+                  </label>
+                </div>
+                <div className={s.squaredThree}>
+                  <input type="checkbox" name="emailalert" id="emailalertID" />
+                  <label htmlFor="emailalertID">
+                    <span />Email Alerts(i.e. When followed items surpass
+                    benchmarks) Analytics Newsletter
+                  </label>
+                </div>
+                <div className={s.squaredThree}>
+                  <input
+                    type="checkbox"
+                    name="globalpriority"
+                    id="globalpriorityID"
+                  />
+                  <label htmlFor="globalpriorityID">
+                    <span />Global Priorities Monthly
+                  </label>
+                </div>
               </div>
             </div>
             <div className={s.formFieldsButtonsWrapper}>
-            <button type="button" className={cx(s.btn, s.btnGrey)}>back</button>
-              <button type="submit" className={cx(s.btn, s.btnYellow)}>finish</button>
+              <button type="button" className={cx(s.btn, s.btnGrey)}>
+                back
+              </button>
+              <button type="submit" className={cx(s.btn, s.btnYellow)}>
+                finish
+              </button>
             </div>
           </form>
         </div>

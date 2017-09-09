@@ -20,7 +20,7 @@
  * ========================================================================== */
 
 html {
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
@@ -30,7 +30,7 @@ html {
 body {
   background: rgb(34, 37, 43);
   margin: 0;
-  color: #FFF !important;
+  color: #fff !important;
 }
 
 a {
@@ -100,16 +100,17 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
- input, textarea {
-   background: #000;
-   border: 0 ;
-   color: #fff;
-   font-size: 14px;
- }
+input, textarea {
+  background: #000;
+  border: 0 ;
+  color: #fff;
+  font-size: 14px;
+}
 
- input {
-   height: 30px;
- }
+input {
+  height: 30px;
+}
+
 textarea {
   resize: vertical;
 }
